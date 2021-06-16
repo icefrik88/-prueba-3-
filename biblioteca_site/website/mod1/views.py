@@ -50,6 +50,9 @@ def form_eli(request, id):
     libro.delete()
     return redirect(to="libros")
 
+def formulario(request):
+    return render(request, 'mod1/formulario.html')
+
 
 
     
